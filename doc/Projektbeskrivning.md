@@ -12,7 +12,7 @@ Projektmedlemmar:
 *Jag kommer att använda vanliga HTML och CSS tekniker för att konstruera min vebsida.*
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+*.*
 
 ## Tidsplanering
 *Länk till tidsplaneringen fins* [här](https://docs.google.com/spreadsheet/ccc?key=0Aildh9njgKWqdHgxRzV4M3c3b2hWTnJPcHQ3ZVcxZEE&usp=sharing)
