@@ -15,5 +15,4 @@ Projektmedlemmar:
 *Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
 
 ## Tidsplanering
-*Länka till tidsplaneringen* [här]()
-
+*Länka till tidsplaneringen* [här](https://docs.google.com/spreadsheet/ccc?key=0Aildh9njgKWqdHgxRzV4M3c3b2hWTnJPcHQ3ZVcxZEE&usp=sharing)
