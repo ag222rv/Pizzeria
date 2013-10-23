@@ -12,7 +12,7 @@ Projektmedlemmar:
 *Jag kommer att använda vanliga HTML och CSS tekniker för att konstruera min vebsida.*
 
 ## Begränsningar
-*Jag vet inga begränsningar somkan upstå.*
+*Jag vet inga begränsningar som kan upstå.*
 
 ##Förstudier
 *Jag har inte gjor några förstudier*
