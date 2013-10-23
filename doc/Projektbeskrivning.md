@@ -1,25 +1,23 @@
-
 # Projektnamn här
 Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
-
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
+[Axel](https://github.com/ag222rv)
 
 [Körbar version av projektet](http://tstjostudent.github.io/Projektet)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+*Jag ska skapa en pizzerias hemsida som projekt. Det var ett av de första sidorna som jag gjorde i mina tidigare studier i HTML.*
+*Så jag tyckte att det var ett bra project val. Då jag kan nu se hur jag har utvecklats inom HTML.*
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+*Jag kommer att använda vanliga HTML och CSS tekniker för att konstruera min vebsida*
 
 ## Begränsningar
 *Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
 
 ## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
+*.*
 
 ## *Förändra*
 *Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
