@@ -1,0 +1,97 @@
+#container
+{
+    margin:0;
+    margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
+    width: 480px; height:auto;
+    background-color: #FFFFFF;
+}
+
+#menu
+{
+    margin-right: auto; margin-top: auto; margin-bottom: auto;
+    width: 480px; height:auto;
+    text-align:center;
+    background-color:#009900;
+}
+
+#content
+{
+    margin-right:auto; margin-top:auto; margin-bottom:auto;
+    width: 480px; height:auto;
+    background-color: #66CC00;
+}
+
+#topbar
+{
+    font-family:Verdana;
+    font-style:oblique;
+    font-size:10px;
+    background-color:#009900;
+    background: url('pic/pizzacropmobile.png') no-repeat bottom;
+    height:160px;
+    width:480px;
+}
+
+/*Här tar vi bort onödig margin från body*/
+body
+{
+    margin:0;
+}
+/*Här tar jag bort onödiga margins till vanlig text*/
+p
+{
+    margin:0;
+    font-size:15px;
+    font-family:Verdana;
+}
+
+#content
+{
+    Border-top:2px Solid black;
+    Border-bottom:2px Solid black;
+    padding-left:5px;
+}
+
+/*Här är kodbitarna för sidans navigation*/
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+font-family:Verdana;
+font-size:30px;
+}
+
+.NavigationElement:link,.NavigationElement:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#009900;
+width:480px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+.NavigationElement:hover
+{
+background-color:#006600;
+color:#FFFFFF;
+}
+
+.active
+{
+display:block;
+font-weight:bold;
+color:#000000;
+background-color:#FFFFFF;
+width:480px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+Border-bottom:2px Solid black;
+Border-top:2px Solid black;
+}
+/*Här slutar det*/
