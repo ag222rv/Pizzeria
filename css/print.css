@@ -1,0 +1,57 @@
+#container
+{
+    margin:auto;
+    width: 1200px; height:auto;
+}
+
+#menu
+{
+    visibility:hidden;
+}
+
+#content
+{
+    margin-right:auto; margin-top:auto; margin-bottom:auto;
+    width: 1200px;
+    height:auto;
+    Border-top:2px Solid black;
+    Border-bottom:2px Solid black;
+}
+
+ul
+{
+    visibility:hidden;
+}
+
+body
+{
+    margin:0;
+}
+
+h1
+{
+    text-align:center;
+    margin:0;
+}
+
+h3
+{
+    text-align:center;
+    margin:0;
+}
+
+/*Här tar jag bort onödiga margins till vanlig text*/
+p
+{
+    margin:0;
+}
+
+.NavigationElement
+{
+    visibility:hidden;
+}
+
+.active
+{
+    visibility:hidden;
+}

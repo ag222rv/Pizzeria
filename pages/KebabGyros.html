@@ -3,8 +3,8 @@
     <head>
     	<meta charset="utf-8" />
     	<title>Pizzeria biscotti</title>
-    	<link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)"/>
-        <link rel="stylesheet" href="css/base.css" media="screen and (min-width: 481px)"/>
+    	<link rel="stylesheet" href="../css/mobile.css" media="screen and (max-width: 480px)"/>
+        <link rel="stylesheet" href="../css/base.css" media="screen and (min-width: 481px)"/>
         <meta name = "viewport" content= "width:device-width,initial-scale=1.0"/>
     </head>
     
@@ -14,18 +14,28 @@
     			
     		</div>
     	
-    		<div id="menu">
+    	    <div id="menu">
     			<ul>
-    				<li class="active"><a href="#">hem</a></li>
-    				<li><a href="pages/Pizzor">pizzor</a></li>
-    				<li><a href="pages/KebabGyros">Kebab/Gyros</a></li>
-    				<li><a href="pages/Kontakt">kontakt</a></li>
-    				<li><a href="pages/Allergi">Allergi</a></li>
+    				<li><a class="NavigationElement" href="../Index.html">hem</a></li>
+    				<li><a class="NavigationElement" href="Pizzor">pizzor</a></li>
+    				<li><a class="active" href="KebabGyros.html">Kebab/Gyros</a></li>
+    				<li><a class="NavigationElement" href="Kontakt.html">kontakt</a></li>
+    				<li><a class="NavigationElement" href="Special.html">Special</a></li>
     			</ul>
     		</div>
     		<div id="content">
-    			<h1>Pizzeria biscotti</h1>
-    			<p>kebabGyros</p>
+    		    <h1>KEBAB</h1>
+    			<ol class = "list">
+			        <li>Kebab i pitabröd..............................50:-</li>
+			        <li>Kebab i rulle.....................................70:-</li>
+			        <li>Kebabtallrik med pommes.............70:-</li>
+			    </ol>
+			    <h1>GYROS</h1>
+    			<ol class = "list">
+			        <li>Gyros i pitabröd..............................50:-</li>
+			        <li>Gyros i rulle.....................................70:-</li>
+			        <li>Gyrostallrik med pommes.............70:-</li>
+			    </ol>
     		</div>		
     	</div>
     </body>

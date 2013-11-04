@@ -1,7 +1,6 @@
 #container
 {
-    margin:0;
-    margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
+    margin:auto;
     width: 480px; height:auto;
     background-color: #FFFFFF;
 }
@@ -12,6 +11,7 @@
     width: 480px; height:auto;
     text-align:center;
     background-color:#009900;
+    Border-top:2px Solid black;
 }
 
 #content
@@ -19,6 +19,8 @@
     margin-right:auto; margin-top:auto; margin-bottom:auto;
     width: 480px; height:auto;
     background-color: #66CC00;
+    Border-top:2px Solid black;
+    Border-bottom:2px Solid black;
 }
 
 #topbar
@@ -37,19 +39,27 @@ body
 {
     margin:0;
 }
+/*Här ger jag titlarnna finare detaljer och centrerar dom*/
+h1
+{
+    text-align:center;
+    margin:0;
+}
+
+h3
+{
+    text-align:center;
+    margin:0;
+}
+
 /*Här tar jag bort onödiga margins till vanlig text*/
 p
 {
     margin:0;
-    font-size:15px;
+    margin-left:10px;
+    margin-top:5px;
+    font-size:20px;
     font-family:Verdana;
-}
-
-#content
-{
-    Border-top:2px Solid black;
-    Border-bottom:2px Solid black;
-    padding-left:5px;
 }
 
 /*Här är kodbitarna för sidans navigation*/
@@ -70,7 +80,8 @@ color:#FFFFFF;
 background-color:#009900;
 width:480px;
 text-align:center;
-padding:4px;
+padding-top:4px;
+padding-bottom:4px;
 text-decoration:none;
 text-transform:uppercase;
 }
@@ -88,10 +99,28 @@ color:#000000;
 background-color:#FFFFFF;
 width:480px;
 text-align:center;
-padding:4px;
+padding-top:4px;
+padding-bottom:4px;
 text-decoration:none;
 text-transform:uppercase;
 Border-bottom:2px Solid black;
 Border-top:2px Solid black;
 }
 /*Här slutar det*/
+/*Här är class ändringar för öppetiderna så de ser fint ut*/
+.oppet
+{
+    margin-top:5px;
+    font-weight:bold;
+    font-size:20px;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+/*Här lägger vi till detaljer på pizza listan och även på de andra meny listorna*/
+.list li
+{
+    margin-top:10px;
+    font-weight:bold;
+    font-size:20px;
+}
