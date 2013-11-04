@@ -1,111 +1,174 @@
-
-
 #container
 {
-    margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto;
+    margin:auto;
     width: 1200px; height:auto;
-    background-color:#FFFFFF;
-}
-
-#topbar
-{
-    font-family:Verdana;
-    font-style:oblique;
-    font-size:10px;
-    color:#FFFFFF;
-    background: url('pic/pizzacrop.png') no-repeat bottom;
-    height:400px;
-    width:1200px;
-}
-
-#menu ul
-{
-    margin-left:20px;
+    background-color: #009900;
 }
 
 #menu
 {
-    clear:both;
+    margin-right: auto; margin-top: auto; margin-bottom:35px;
+    width:1200px; height:auto;
+    text-align:center;
     background-color:#009900;
 }
 
 #content
 {
-    border-top:1px solid white;
-    color:#000000;
-    background-color:#FFFFFF;
-    clear:both;
-    font-family:"Verdana";
+    margin-right:auto; margin-top:auto; margin-bottom:auto;
+    width: 1200px; height:auto;
+    background-color: #66CC00;
+    Border-bottom:2px Solid black;
 }
 
-/*Menu som är horisontel*/
-ul
+#topbar
 {
-list-style-type:none;
-margin:0;
-padding:0;
-padding-top:10px;
-padding-bottom:0;
+    background-color:#66CC00;
+    background:url('pic/pizzacrop.png') no-repeat bottom;
+    height:300px;
+    width:1200px;
 }
 
+/*Här tar vi bort onödig margin från body*/
+body
+{
+    margin:0;
+}
+/*Här ger jag titlarnna finare detaljer och centrerar dom*/
 h1
 {
-    font-style:Times New Roman;
-    font-family:serif;   
+    text-align:center;
+    margin:0;
+    font-family:Verdana;
 }
 
 h2
 {
-    font-family:serif;
-    font-size:12px;
+    text-align:center;
+    margin:0;
+    font-family:Verdana;
+}
+
+h3
+{
+    text-align:center;
+    margin:0;
+    font-family:Verdana;
+}
+
+form h2
+{
+    margin-top:10px;
+}
+
+/*Här tar jag bort onödiga margins till vanlig text*/
+p
+{
+    margin:0;
+    margin-left:10px;
+    margin-top:5px;
+    font-size:20px;
+    font-family:Verdana;
+}
+
+.oppet h3
+{
+    text-align:left;
+    margin-left:10px;
+}
+
+/*Här är kodbitarna för sidans navigation*/
+
+li
+{
+    float:left;
+}
+
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    font-family:Verdana;
+    font-size:20px;
 }
 
 #menu li a
 {
-    font-size:12px;
-    float:left;
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:12px;
-    padding-right:12px;
-    border-right:1px solid #FFFFFF;
+    padding:10px;
+    Border-right:2px Solid black;
 }
 
 #menu ul li a:link,a:visited
 {
-    font-family:"Verdana";
-    color:#000000;
+    font-weight:bold;
+    color:#FFFFFF;
     background-color:#009900;
     text-align:center;
+    padding-top:0px;
+    padding-bottom:4px;
+    padding-right:10px;
+    padding-left:10px;
     text-decoration:none;
+    text-transform:uppercase;
 }
 #menu ul li a:hover,a:active
 {
-    background-color:#FFFFFF;
-}
-
-#menu .active
-{
-    background-color:#FFFFFF;
+    background-color:#66CC00;
 }
 
 #menu a
 {
-    font-size:14px;
+    text-align:center;
+    font-family:"Verdana";
+    font-size:25px;
+    font-weight:bold;
 }
 
 
-#menu .active a
+#menu .active
 {
-    color:#000000;
-    background-color:#FFFFFF;
+    color:#FFFFFF;
+    background-color:#66CC00;
     text-align:center;
     text-decoration:none;
-    border-bottom:1px solid #FFFFFF;
 }
 
-div img 
+/*Här slutar det*/
+/*Här är class ändringar för öppetiderna så de ser fint ut*/
+.oppet
 {
-    float:left;
-    margin-right:5px;
+    margin-top:5px;
+    font-weight:bold;
+    font-size:20px;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+/*Här lägger vi till detaljer på pizza listan och även på de andra meny listorna*/
+.list li
+{
+    margin-top:10px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+/*Här ger vi lite finare färg på formuläret*/
+#first
+{
+    background-color:#66CC00;
+    text-align:center
+}
+
+#second
+{
+    background-color:#66CC00;
+    text-align:center;
+}
+
+#send
+{
+    margin-bottom:65px;
+    width:100px;
+    text-align:center;
 }
