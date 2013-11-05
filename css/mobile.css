@@ -34,6 +34,11 @@
     width:480px;
 }
 
+img
+{
+    display:none;
+}
+
 /*Här tar vi bort onödig margin från body*/
 body
 {
@@ -131,6 +136,13 @@ ul
 
 /*Här lägger vi till detaljer på pizza listan och även på de andra meny listorna*/
 .list li
+{
+    margin-top:10px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.listKG li
 {
     margin-top:10px;
     font-weight:bold;

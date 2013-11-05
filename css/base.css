@@ -3,6 +3,8 @@
     margin:auto;
     width: 1200px; height:auto;
     background-color: #009900;
+    Border-left:2px Solid black;
+    Border-right:2px Solid black;
 }
 
 #menu
@@ -19,6 +21,7 @@
     width: 1200px; height:auto;
     background-color: #66CC00;
     Border-bottom:2px Solid black;
+    margin-top:30px;
 }
 
 #topbar
@@ -28,6 +31,16 @@
     height:300px;
     width:1200px;
 }
+/*fixar så bilden ser finare ut*/
+img
+{
+    float:right;
+    width: 350px;
+    height:350px;
+    padding:5px;
+    margin-right:100px;
+}
+
 
 /*Här tar vi bort onödig margin från body*/
 body
@@ -37,6 +50,7 @@ body
 /*Här ger jag titlarnna finare detaljer och centrerar dom*/
 h1
 {
+    padding-top:20px;
     text-align:center;
     margin:0;
     font-family:Verdana;
@@ -77,9 +91,41 @@ p
     margin-left:10px;
 }
 
+.list
+{
+    margin-left:30px;
+}
+
+.list p
+{
+    margin-bottom:40px;
+}
+
+/*här gör  jag en egen lista för kebab/gyros och lite på special*/
+.listKG
+{
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.listKG p
+{
+    margin-bottom:40px;
+}
+
+.listKG li
+{
+    margin-top:15px;
+    font-weight:bold;
+    font-size:20px;
+    font-family:Verdana;
+    font-size:20px;
+}
+
 /*Här är kodbitarna för sidans navigation*/
 
-li
+#menu li
 {
     float:left;
 }
@@ -141,9 +187,10 @@ ul
     margin-top:5px;
     font-weight:bold;
     font-size:20px;
-    padding-top:20px;
-    padding-bottom:50px;
+    padding-top:100px;
+    padding-bottom:232px;
 }
+
 
 /*Här lägger vi till detaljer på pizza listan och även på de andra meny listorna*/
 .list li
@@ -170,5 +217,14 @@ ul
 {
     margin-bottom:65px;
     width:100px;
-    text-align:center;
+}
+
+.space
+{
+    height:200px;
+}
+
+form h2
+{
+    margin-top:50px;
 }
